@@ -4,6 +4,7 @@ export default function ListaDinamica() {
     const [listaDinamica, SetListaDinamica] = useState([]);
     const [inputValue, SetInputValue] = useState("");
 
+    //Armazena o valor do input usando o useState
     function inputText(event) {
         SetInputValue(event.target.value);
     }
@@ -29,7 +30,7 @@ export default function ListaDinamica() {
             <button onClick={addToList}>Adicionar à Lista</button>
             <ul>
                 {listaDinamica.map((item, index) => (
-                    <li key={index}>{item}</li> // Renderiza cada item como <li>
+                    <li key={index}>{item}</li> 
                 ))}
             </ul>
         </main>
