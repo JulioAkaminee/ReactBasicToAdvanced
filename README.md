@@ -2,7 +2,7 @@
 
 
 ## Descrição
-Este repositório é um guia completo de React, desde conceitos básicos até funcionalidades avançadas.
+Este repositório é um guia completo de Estudos React, desde conceitos básicos até funcionalidades avançadas.
 
 ## Tópicos Abordados
 - **Fundamentos do React**: JSX, componentes, props, estado.
